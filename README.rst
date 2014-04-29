@@ -18,3 +18,11 @@ dev mode::
     include:
       - postfix.dev
 
+
+
+pillar::
+
+    postfix:
+        mydestinations:
+            - example.com
+            - domain.com
