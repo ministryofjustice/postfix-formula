@@ -26,3 +26,8 @@ pillar::
         mydestinations:
             - example.com
             - domain.com
+         configuration:
+             main:
+                 key: value
+
+main.cf is written out using key/value pairs within postfix.configuration.main in pillar.  See map.jinja for defaults.
